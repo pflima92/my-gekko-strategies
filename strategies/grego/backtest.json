@@ -1,0 +1,13 @@
+{
+    "watch": {
+        "exchange": "binance",
+        "currency": "BNB",
+        "asset": "LTC"
+    },
+    "backtest": {
+        "daterange": {
+            "from": "2019-06-21T22:24:00Z",
+            "to": "2019-06-26T22:22:00Z"
+        }
+    }
+}
