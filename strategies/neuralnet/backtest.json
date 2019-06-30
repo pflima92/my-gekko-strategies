@@ -2,7 +2,7 @@
     "watch": {
         "exchange": "binance",
         "currency": "BNB",
-        "asset": "XRP"
+        "asset": "LTC"
     },
     "backtest": {
         "daterange": {
