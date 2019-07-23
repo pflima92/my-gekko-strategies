@@ -1,9 +1,11 @@
 var convnetjs = require('convnetjs');
 var math = require('mathjs');
 
-var config = require('../core/util.js').getConfig();
+var util = require('../../../core/util');
+var config = util.getConfig();
+const dirs = util.dirs();
 
-var SMMA = require('./indicators/SMMA.js');
+var SMMA = require(`${dirs.indicators}/SMMA.js`);
 
 var strategy = {
   // stores the candles
