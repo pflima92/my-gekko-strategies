@@ -1,17 +1,23 @@
 {
     "watch": {
         "exchange": "binance",
-        "currency": "USDT",
-        "asset": "BTC"
+        "currency": "BNB",
+        "asset": "XRP"
     },
     "backtest": {
         "daterange": {
-            "from": "2019-07-15T00:00:00Z",
-            "to": "2019-07-22T00:00:00Z"
-          }
+            "from": "2019-04-30T00:00:00Z",
+            "to": "2019-07-25T00:00:00Z"
+        }
     },
     "tradingAdvisor": {
-        "candleSize": 5,
+        "candleSize": 60,
         "historySize": 10
+    },
+    "paperTrader": {
+        "simulationBalance": {
+            "asset": 0,
+            "currency": 1000
+        }
     }
 }

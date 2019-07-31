@@ -3,7 +3,7 @@ optInTimePeriod = 15
 candleSize = 10
 
 [general]
-stopLoss = 0.10
+stopLoss = 0.8
 
 [thresholds]
 up = 30
