@@ -11,13 +11,13 @@
         }
     },
     "tradingAdvisor": {
-        "candleSize": 60,
+        "candleSize": 5,
         "historySize": 10
     },
     "paperTrader": {
         "simulationBalance": {
             "asset": 0,
-            "currency": 1000
+            "currency": 100
         }
     }
 }
